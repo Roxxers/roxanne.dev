@@ -1,0 +1,38 @@
+baseURL = "https://roxanne.dev/"
+languageCode = "en-gb"
+theme = "hallo"
+title = "Hello!"
+
+[Author]
+    name = "Roxie"
+
+[params]
+    [[params.links]]
+        iconset = "fas"
+        icon = "info-circle"
+        title = "Additional information"
+        url = "#info"
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/roxxers"
+    [[params.links]]
+        icon = "git"
+        title = "Git Repo"
+        url = "https://git.roxanne.dev"
+    [[params.links]]
+        iconset = "fas"
+        icon = "blog"
+        title = "Blog"
+        url = "https://roxie.codes"
+    [[params.links]]
+        iconset = "fas"
+        icon = "file-pdf"
+        title = "CV"
+        url = "./files/roxanne_gibson.pdf"
+
+
+    [params.colors]
+        background = "#1a9ca9"
+        foreground = "#edf7ff"
+        hover = "#dac3c1"
